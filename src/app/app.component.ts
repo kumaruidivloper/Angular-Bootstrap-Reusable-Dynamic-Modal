@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Angular-Bootstrap-Reusable-Dynamic-Modal';
+  data1 : string;
+  data2 : string;
+
+
+  ngOnInit() {
+    this.data1="The content is displayed from Demo1 component";
+    this.data2="The content is displayed from Demo2 component";
+  }
+
 }
