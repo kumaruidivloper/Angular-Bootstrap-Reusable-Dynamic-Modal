@@ -1,4 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<!--The content below is only a placeholder and can be replaced.-->
 <div class="container">
   <h1 align="center">
     Welcome to {{ title }}!
@@ -9,10 +10,10 @@
     <button type="button" 
       class="btn btn-success  btn-block"
       modal-box 
-      [title]='"Demo Modal 1"'
+      [title]='"ConfirmationBox"'
       [componentData]="data1"
-      [componentName]="'Demo1Component'">
-      Demo Modal 1
+      [componentName]="'ModalContentComponent'">
+      Conformation Modal
     </button>
   </div>  
 
@@ -20,14 +21,28 @@
     <button type="button" 
       class="btn btn-danger  btn-block"
       modal-box 
-      [title]='"Demo Modal 2"'
+      [title]='"FormBox"'
       [componentData]="data2"
-      [componentName]="'Demo2Component'">
-      Demo Modal 2
+      [componentName]="'ModalContentComponent'">
+      Form Modal
+    </button>
+  </div> 
+
+  <div class="col-md-2">
+    <button type="button" 
+      class="btn btn-primary  btn-block"
+      modal-box 
+      [title]='"InformationBox"'
+      [componentData]="data3"
+      [componentName]="'ModalContentComponent'">
+      Information Modal
     </button>
   </div>  
 
 
 </div>
+
+
+
 
 <!-- <router-outlet></router-outlet> -->

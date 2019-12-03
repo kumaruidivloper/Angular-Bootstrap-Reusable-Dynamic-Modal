@@ -8,11 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   data1 : string;
   data2 : string;
+  data3 : string;
 
 
   ngOnInit() {
-    this.data1="The content is displayed from Demo1 component";
-    this.data2="The content is displayed from Demo2 component";
+    this.data1="contentOne";
+    this.data2="contentTwo";
+    this.data3="contentThree";
   }
 
 }

@@ -4,11 +4,11 @@ import {
   } from '@angular/core';
   
   @Component({
-    selector: 'app-demo2',
-    templateUrl: './demo2.component.html',
-    styleUrls: ['./demo2.component.scss']
+    selector: 'app-ModalContentComponent',
+    templateUrl: './modal-content.component.html',
+    styleUrls: ['./modal-content.component.scss']
   })
-  export class Demo2Component implements OnInit {
+  export class ModalContentComponent implements OnInit {
   
     @Input() data: any;
     constructor(
@@ -22,3 +22,4 @@ import {
     }
   
   }
+  
